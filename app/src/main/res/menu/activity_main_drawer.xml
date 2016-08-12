@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mosquito"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Aedes aegypti" />
+        <item
+            android:id="@+id/nav_dengue"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Dengue" />
+        <item
+            android:id="@+id/nav_zika"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Zika" />
+        <item
+            android:id="@+id/nav_chikun"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Chikungunya" />
+
+        <item
+            android:id="@+id/nav_febreAmarela"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Febre Amarela" />
+
+        <item
+            android:id="@+id/nav_prevencao"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Prevenção e Combate" />
+    </group>
+
+    <item android:title="Faça sua parte">
+        <menu>
+            <item
+                android:id="@+id/nav_denuncia"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Denuncie Aqui" />
+            <item
+                android:id="@+id/nav_checklist"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Comece agora" />
+            <item
+                android:id="@+id/nav_cuidese"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Cuide-se" />
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_sobre"
+        android:icon="@drawable/ic_menu_send"
+        android:title="Sobre" />
+</menu>

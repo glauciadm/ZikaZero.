@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.zikazero.MosquitoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aedes aegypti"
+            android:textColor="#228B22"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textStyle="italic|bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/aedes"
+            android:layout_marginTop="15dp"
+            android:scaleType="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quem é ele:"
+            android:layout_marginTop="12dp"
+            android:textColor="#006400"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="É o mosquito transmissor das doenças: Dengue, Zika, Chikungunya e Febre Amarela(urbana)."
+            android:layout_marginTop="8dp"
+            android:textColor="#006400" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modo de contágio:"
+            android:layout_marginTop="12dp"
+            android:textColor="#006400"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A transmissão da doença ocorre por meio da picada do mosquito fêmea que contém o vírus de uma das doenças. O mosquito fêmea suga o sangue de um indivído para produzir seus ovos. Ao picar um indivíduo contaminado, o mesmo adquiri o vírus e ao picar um próximo indivíduo, transmite a doença."
+            android:layout_marginTop="8dp"
+            android:textColor="#006400" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reprodução:"
+            android:layout_marginTop="12dp"
+            android:textColor="#006400"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O mosquito fêmea deposita os seus ovos em água limpa e parada."
+            android:layout_marginTop="8dp"
+            android:textColor="#006400" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prevenção:"
+            android:layout_marginTop="12dp"
+            android:textColor="#006400"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Elimiar os habitats do Aedes aegypti, esvaziando recipientes de água, ou adicionando insecticidas ou agentes de controlo biológico a estas áreas.\n\nReduzir o acúmulo de água através da modificação ambiental é o método mais eficaz e viável para o controle, dadas as preocupações do efeito negativo sobre a saúde que o uso de inseticidas causa. \n\nAs pessoas podem evitar picadas de mosquitos, vestindo roupas que cubram totalmente a pele, usando mosquiteiros no leito ao dormir e aplicando repelente de insetos."
+            android:layout_marginTop="8dp"
+            android:textColor="#006400" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Por que só a fêmea pica?"
+            android:layout_marginTop="12dp"
+            android:textColor="#006400"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A fêmea precisa de sangue para a produção de ovos. Tanto o macho quanto a fêmea se alimentam de substâncias que contêm açúcar. Mas como o macho não produz ovos, não necessita de sangue.\n\nNormalmente, três dias após a ingestão de sangue as fêmeas já estão aptas para a postura, passando então a procurar local para desovar.\n\nSe a fêmea estiver infectada pelo vírus da dengue quando realizar a postura de ovos, há a possibilidade de as larvas filhas já nascerem com o vírus, no processo chamado de transmissão vertical."
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_horizontal|center"
+            android:textColor="#006400" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+</ScrollView>

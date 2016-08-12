@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.zikazero.ZikaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zika"
+            android:textColor="#228B22"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O que é:"
+            android:layout_marginTop="12dp"
+            android:textColor="#006400"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uma doença causada pelo Zika Vírus, que é transmitido pela picada do mosquito Aedes Aegypti contaminado."
+            android:layout_marginTop="8dp"
+            android:textColor="#006400" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sintomas:"
+            android:layout_marginTop="12dp"
+            android:textColor="#006400"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Febre, dor nas articulações, dor muscular, dor de cabeça e atrás dos olhos, conjuntivite (um quadro de vermelhidão e inchaço nos olhos, mas em que não ocorre secreção), manchas vermelhas na pele que provocam coceira. Os sintomas relacionados ao vírus Zika costumam-se manifestar de maneira branda e o paciente pode estar infectado e não apresentar qualquer sintoma."
+            android:layout_marginTop="8dp"
+            android:textColor="#006400" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tratamento:"
+            android:layout_marginTop="12dp"
+            android:textColor="#006400"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O tratamento para o Zika vírus é sintomático. Isso que dizer quer não há tratamento específico para a doença, só para alívio dos sintomas."
+            android:layout_marginTop="8dp"
+            android:textColor="#006400" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prevenção:"
+            android:layout_marginTop="12dp"
+            android:textColor="#006400"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Evitar a reprodução do mosquito."
+            android:layout_marginTop="8dp"
+            android:textColor="#006400" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mais informações:"
+            android:layout_marginTop="12dp"
+            android:textColor="#006400"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ao contrário da Dengue e da Chikungunya, o quadro de febre causado pelo Zika Vírus costuma ser mais baixo e as dores nas articulações mais leves.\n\nBastante raros, os relatos de morte em decorrência de Zika estão, geralmente, relacionados ao agravamento do estado de saúde do paciente, já portador de outras enfermidades."
+            android:layout_marginTop="8dp"
+            android:textColor="#006400" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+</ScrollView>
